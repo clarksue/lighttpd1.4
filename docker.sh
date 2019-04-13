@@ -1,0 +1,1 @@
+docker run -it --name lighttpd --net docker-net --ip 172.172.0.50 -v /Users/a10946/Documents/workspace/lighttpd1.4:/lighttpd -d -p 38000:38000 -p 38001:38001 -p 38002:38002 -p 38003:38003 -p 38004:38004 -p 38005:38005 -p 38006:38006 -p 38007:38007 -p 38008:38008 -p 38009:38009 centos /bin/bash
